@@ -4,7 +4,7 @@ locals {
   stack       = lower(var.stack)
 
   tags = {
-    customer    = local.customer
+    Customer    = local.customer
     Environment = local.environment
     Stack       = local.stack
   }
